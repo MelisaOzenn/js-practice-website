@@ -1,0 +1,93 @@
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background: whitesmoke;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    position: sticky;
+    top:0;
+    z-index: 999; /* to keep it above every content given */
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px; 
+}
+
+#navLogo{
+    text-decoration: none;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.fa-gem{
+    margin-right: 0.5rem;
+}
+
+.navMenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navItem{
+    height: 80px;
+}
+
+.navLinks{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    color: rgb(65, 62, 62);
+    padding: 0 17px;
+    height: 100%;
+}
+
+.navButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    text-decoration: none;
+    background: #f77062;
+    color:white;
+    padding: 7px 5px 7px 5px;
+    border-radius: 3px;
+}
+
+.button:hover{
+    background: #a200ff ;
+    transition: 0.4s  ;
+}
+
+.navLinks:hover{
+    color: #f77062;
+    transition: 0.2s;
+}
