@@ -402,7 +402,7 @@
     cursor: pointer;
 
 }
-@media screen and (max-width. 480px){
+@media screen and (max-width: 480px){
     .classes{
         height:1400px;
     }
@@ -416,7 +416,7 @@
 
 .footer{
     background-color:black;
-    padding 5rem 0;
+    padding: 5rem 0;
     display: flex;
     flex-direction: column;
     justify-content:center;
